@@ -1,0 +1,75 @@
+*{
+ box-sizing: border-box;
+}
+
+@font-face {
+    font-family: dancer;
+    src: url(Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: permanent;
+    src: url(Nosifer-Regular.ttf);
+}
+body{
+    background-color: #343a40;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #212529;
+    height: fit-content;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+    font-family: dancer;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#password{
+    padding: 9px;
+    background-color: #6b7f92;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-family: nosifer;
+    text-align: center;
+}
+.formcontrol{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px;
+}
+#generate{
+    width: 300px;
+    margin-left: 40px;
+    background-color:  #6b7f92;
+    height: 30px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: dancer;
+
+}
+
+.head{
+    font-family:permanent;
+    color: white;
+    font-size: 30px;
+    ;
+
+}
+
+#copy{
+    background-color: ;
+    font-family: dancer;
+}
